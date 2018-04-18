@@ -37,7 +37,7 @@ Vue.use(Meta, {
 const defaultTransition = {"name":"page","mode":"out-in","appear":false,"appearClass":"appear","appearActiveClass":"appear-active","appearToClass":"appear-to"}
 
 async function createApp (ssrContext) {
-  const router = createRouter()
+  const router = createRouter(ssrContext)
 
   
 
